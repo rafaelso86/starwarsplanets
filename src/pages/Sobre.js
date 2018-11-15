@@ -14,7 +14,7 @@ export default class Sobre extends Component{
 
                 <div className="card">
                     <div className="card-body">
-                        <h1 style={{margin: '50px 0'}}>{this.state.titulo}</h1>
+                        <h1 style={{margin: '25px 0'}}>{this.state.titulo}</h1>
 
                         <p><strong>Desenvolvido por:</strong> {this.state.autor}</p>
                         <p><strong>GitHub</strong> <a href="https://github.com/rafaelso86/starwarsplanets" alt="GitHub" target="_blank">https://github.com/rafaelso86/starwarsplanets</a></p>
@@ -30,7 +30,7 @@ export default class Sobre extends Component{
                             <li><strong>GULP -</strong> SASS, CSS CLEAN, CONCAT</li>
                         </ul>
 
-                        <img src={sabre} alt="Sabres" title="Sabres" style={{margin: '50px 0'}} />
+                        <img src={sabre} alt="Sabres" title="Sabres" style={{margin: '25px 0'}} />
                     </div>
                 </div>
 

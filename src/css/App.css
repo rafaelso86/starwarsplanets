@@ -3,7 +3,8 @@ body {
   background-image: url("../img/bg-star-wars.jpg"); }
 
 h1 {
-  height: 48px; }
+  height: 35px;
+  font-size: 35px; }
 
 a {
   color: #f1dc21; }
@@ -29,41 +30,48 @@ a:hover {
   text-align: center;
   color: #fff;
   background: #575757;
-  font-size: 18px; }
+  font-size: 18px;
+  margin-bottom: 25px; }
   .card ul li {
-    background: #575757; }
+    background: #575757;
+    font-size: 16px; }
   .card .card-body .dartVader {
-    height: 128px;
-    width: 128px;
+    height: 100px;
+    width: 100px;
     background: url("../img/darth-vader.png") no-repeat;
-    background-size: 128px;
-    margin: 25px auto 25px; }
+    background-size: 100px;
+    margin: 15px auto 15px; }
   .card .card-body ul.lista li {
     display: block;
     margin: 5px auto 5px;
     height: auto;
     width: 100%; }
   .card .card-body ul {
-    margin-top: 25px;
+    margin: 0;
     padding: 0; }
     .card .card-body ul li {
-      height: 128px;
-      width: 128px;
-      background-size: 128px;
-      margin: 25px auto 25px;
+      height: 100px;
+      width: 100px;
+      margin: 25px auto 0;
       list-style: none;
       display: inline-block; }
     .card .card-body ul .clone-1 {
-      background: url("../img/clone-1.png") no-repeat; }
+      background: url("../img/clone-1.png") no-repeat;
+      background-size: 100px; }
     .card .card-body ul .clone-2 {
-      background: url("../img/clone-2.png") no-repeat; }
+      background: url("../img/clone-2.png") no-repeat;
+      background-size: 100px; }
     .card .card-body ul .clone-3 {
-      background: url("../img/clone-3.png") no-repeat; }
+      background: url("../img/clone-3.png") no-repeat;
+      background-size: 100px; }
     .card .card-body ul .clone-4 {
-      background: url("../img/clone-4.png") no-repeat; }
+      background: url("../img/clone-4.png") no-repeat;
+      background-size: 100px; }
     .card .card-body ul .soldier {
-      background: url("../img/soldier.png") no-repeat; }
+      background: url("../img/soldier.png") no-repeat;
+      background-size: 100px; }
     .card .card-body ul .bobaFeth {
-      background: url("../img/boba-feth.png") no-repeat; }
+      background: url("../img/boba-feth.png") no-repeat;
+      background-size: 100px; }
   .card .card-body button {
     padding: 8px 40px; }

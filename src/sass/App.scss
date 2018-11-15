@@ -4,7 +4,8 @@ body{
 }
 
 h1{
-    height: 48px;;
+    height: 35px;
+    font-size: 35px;
 }
 
 a{color: #f1dc21;}
@@ -42,20 +43,22 @@ a:hover{
     color: #fff;
     background: #575757;
     font-size: 18px;
+    margin-bottom: 25px;
 
     ul{
         li{
             background: #575757;
+            font-size: 16px;
         }
     }
 
     .card-body{
         .dartVader{
-            height: 128px;
-            width: 128px;
+            height: 100px;
+            width: 100px;
             background: url('../img/darth-vader.png') no-repeat;
-            background-size: 128px;
-            margin: 25px auto 25px;
+            background-size: 100px;
+            margin: 15px auto 15px;
         }
 
         ul.lista li{
@@ -66,33 +69,38 @@ a:hover{
         }
 
         ul{
-            margin-top: 25px;
+            margin: 0;
             padding: 0;
             li{
-                height: 128px;
-                width: 128px;
-                background-size: 128px;
-                margin: 25px auto 25px;
+                height: 100px;
+                width: 100px;
+                margin: 25px auto 0;
                 list-style: none;
                 display: inline-block;
             }
             .clone-1{
                 background: url('../img/clone-1.png') no-repeat;
+                background-size: 100px;
             }
             .clone-2{
                 background: url('../img/clone-2.png') no-repeat;
+                background-size: 100px;
             }
             .clone-3{
                 background: url('../img/clone-3.png') no-repeat;
+                background-size: 100px;
             }
             .clone-4{
                 background: url('../img/clone-4.png') no-repeat;
+                background-size: 100px;
             }
             .soldier{
                 background: url('../img/soldier.png') no-repeat;
+                background-size: 100px;
             }
             .bobaFeth{
                 background: url('../img/boba-feth.png') no-repeat;
+                background-size: 100px;
             }
         }
 
