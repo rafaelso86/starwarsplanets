@@ -7,7 +7,7 @@ export default class Home extends Component{
         super(props)
         this.state = {
             planetas: [],
-            filmes: []
+            filmes: [],
         }
 
         this.click = this.click.bind(this)
@@ -29,13 +29,9 @@ export default class Home extends Component{
             this.setState({planetas});
             console.log(planetas)
 
-            //Filme
-            Axios.get(planetas.films[0])
-            .then(response=>{
-                const filmes = response.data;
-                this.setState({filmes});
-                console.log(filmes);
-            })
+            const filmes = response.data.films;
+            this.setState({filmes})
+            console.log(filmes)
         })
     }
 
@@ -51,13 +47,9 @@ export default class Home extends Component{
             this.setState({planetas: this.planetas = response.data});
             console.log(planetas)
 
-            //Filme
-            Axios.get(planetas.films[0])
-            .then(response=>{
-                const filmes = response.data;
-                this.setState({filmes: this.filmes = response.data});
-                console.log(filmes);
-            })
+            const filmes = response.data.films;
+            this.setState({filmes})
+            console.log(filmes)
         })
 
         event.preventDefault();
@@ -76,7 +68,7 @@ export default class Home extends Component{
                         <li className="list-group-item"><strong>Population:</strong> { this.state.planetas.population }</li>
                         <li className="list-group-item"><strong>Climate:</strong> { this.state.planetas.climate }</li>
                         <li className="list-group-item"><strong>Terrain:</strong> { this.state.planetas.terrain }</li>
-                        <li className="list-group-item"><strong>Feature in Films: </strong> { this.state.filmes.title }</li>
+                        <li className="list-group-item"><strong>Feature in Films: </strong> {this.state.filmes.length}</li>
                     </ul>
                     <div className="card-body">
                         <button className="card-link btn btn-primary" onClick={this.click}>NEXT</button>
