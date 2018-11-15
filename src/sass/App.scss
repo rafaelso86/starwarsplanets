@@ -1,0 +1,103 @@
+body{
+    background: #000;
+    background-image: url('../img/bg-star-wars.jpg');
+}
+
+h1{
+    height: 48px;;
+}
+
+a{color: #f1dc21;}
+
+a:hover{
+    color: #f1dc21;
+    opacity: 0.5; 
+}
+
+.navbar{
+    margin-bottom: 50px;
+
+    .navbar-brand{
+        .logo{
+            width: 100% !important;
+            max-width: 100px !important;
+            color: #f1dc21;
+        }
+    }
+
+    .navbar-nav{
+        .active>.nav-link,
+        .nav-link:hover{
+            color: #f1dc21;
+            opacity: 0.5;
+        }
+        .nav-link{
+            color: #f1dc21;
+        }
+    }
+}
+
+.card{
+    text-align: center;
+    color: #fff;
+    background: #575757;
+    font-size: 18px;
+
+    ul{
+        li{
+            background: #575757;
+        }
+    }
+
+    .card-body{
+        .dartVader{
+            height: 128px;
+            width: 128px;
+            background: url('../img/darth-vader.png') no-repeat;
+            background-size: 128px;
+            margin: 25px auto 25px;
+        }
+
+        ul.lista li{
+            display: block;
+            margin: 5px auto 5px;
+            height: auto;
+            width: 100%;
+        }
+
+        ul{
+            margin-top: 25px;
+            padding: 0;
+            li{
+                height: 128px;
+                width: 128px;
+                background-size: 128px;
+                margin: 25px auto 25px;
+                list-style: none;
+                display: inline-block;
+            }
+            .clone-1{
+                background: url('../img/clone-1.png') no-repeat;
+            }
+            .clone-2{
+                background: url('../img/clone-2.png') no-repeat;
+            }
+            .clone-3{
+                background: url('../img/clone-3.png') no-repeat;
+            }
+            .clone-4{
+                background: url('../img/clone-4.png') no-repeat;
+            }
+            .soldier{
+                background: url('../img/soldier.png') no-repeat;
+            }
+            .bobaFeth{
+                background: url('../img/boba-feth.png') no-repeat;
+            }
+        }
+
+        button{
+            padding: 8px 40px;
+        }
+    }
+}
